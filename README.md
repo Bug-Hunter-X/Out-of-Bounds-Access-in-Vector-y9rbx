@@ -1,0 +1,1 @@
+This repository contains a simple Rust program that demonstrates an out-of-bounds access error when accessing elements in a vector. The bug is that the program directly accesses the vector element with an index that is not validated and it may be outside the vector bounds.  The solution demonstrates how to safely handle potential index errors by using appropriate checks.
